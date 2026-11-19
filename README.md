@@ -227,9 +227,7 @@ $ curl -s http://localhost:8081 | grep "<h1>"
 ```
 
 #### 📸 브라우저 접속 화면 (주소창 및 응답 포함)
-> *(※ 저장소 내 `docs/images/browser_port_8080.png` 경로에 스크린샷 업로드 후 아래 링크 연결)*
-![브라우저 접속 화면](./docs/images/browser_port_8080.png)
-
+curl -i http://localhost:8080
 ---
 
 ## 💾 6. 바인드 마운트 & Docker 볼륨 영속성 검증
@@ -296,7 +294,6 @@ core.autocrlf=input
 ```
 
 ### 2) VS Code GitHub 연동 증거
-> *(※ VS Code 좌측 소스 제어 탭 및 우측 하단 계정 연동 상태 스크린샷을 `docs/images/vscode_github.png`로 저장 후 연결)*
 ![VS Code GitHub 연동](./docs/images/vscode_github.png)
 
 ---
